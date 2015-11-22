@@ -1,12 +1,12 @@
-RenderFarm for Linux Networks
+# RenderFarm for Linux Networks
 
-### Information
+## Information
 
 Was created to use Linux Clients in a school for rendering Blender Animations.
 It is written in Perl and is using ssh to send the Data to the clients, and
 to send the rendered images Back to the host via scp (ssh copy).
 
-# The steps
+## The steps
 1. Copy the *.blend File to the root Directory
 2. Edit hosts.cfg
    There are the <hostnames> of the clients
@@ -35,6 +35,6 @@ SCPFILE=scpBack.exp
 perl RenderFarm.pl -file Baum1.blend -start 591 -stop 600 -chunk 3
 ```
 start it
-```
+``
 sh startRendering.sh
-```
+``

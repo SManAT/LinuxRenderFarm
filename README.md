@@ -31,7 +31,9 @@ PASSWD=whatever
 SCPFILE=scpBack.exp
 ```
 4. Edit startRendering.sh and afterwards
-`perl RenderFarm.pl -file Baum1.blend -start 591 -stop 600 -chunk 3`
+```
+perl RenderFarm.pl -file Baum1.blend -start 591 -stop 600 -chunk 3
+```
 start it `sh startRendering.sh`
 
 5. After Rendering is finished, you can collect the Images with
